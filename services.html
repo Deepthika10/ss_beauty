@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | SS Beauty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background: url('images/pink-floral-bg.jpg') no-repeat center fixed;
+      background-size: cover;
+    }
+    .services-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .service-card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+    .service-card h3 {
+      color: #d23369;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .service-card a {
+      background: #d23369;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Hair Services</h3>
+      <p>From cuts to coloring</p>
+      <a href="hair.html">View Prices</a>
+    </div>
+    <div class="service-card">
+      <h3>Skin Care</h3>
+      <p>Facials & treatments</p>
+      <a href="skin.html">View Prices</a>
+    </div>
+    <div class="service-card">
+      <h3>Nail Art</h3>
+      <p>Manicures & pedicures</p>
+      <a href="nails.html">View Prices</a>
+    </div>
+    <div class="service-card">
+      <h3>Makeup</h3>
+      <p>Bridal & party looks</p>
+      <a href="makeup.html">View Prices</a>
+    </div>
+  </div>
+</body>
+</html>
